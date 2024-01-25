@@ -6,6 +6,3 @@ syntax: glob
 .coverage
 local_settings.py
 
-syntax: regexp
-^static/
-^media/
