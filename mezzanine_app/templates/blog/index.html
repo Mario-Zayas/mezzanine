@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<h2>Congratulations!</h2>
+<p>
+    Welcome to your new Mezzanine powered website.
+    Here are some quick links to get you started:
+</p>
+<ul>
+    <li><a href="/admin/">Log in to the admin interface</a></li>
+    <li><a href="/articulo/">Articulo nuevo creado para la tarea 4 de modificacion</a></li>
+
+</ul>
+{% endblocktrans %}
+{% endblock %}
